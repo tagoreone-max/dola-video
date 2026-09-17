@@ -1,0 +1,37 @@
+# 脚本运行时产物（默认写到系统临时目录，若用户在仓库内跑过也不会入库）
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mov
+_wm_*.png
+_concat_list.txt
+*.bgm.mp4
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 凭据与本地配置（绝不提交）
+.env
+.env.*
+*.local
+cookies*.txt
+*cookie*.json
+auth.json
+
+# 浏览器 profile（含登录态，绝不提交）
+browser-profile/
+.dola-video/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
